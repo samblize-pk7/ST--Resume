@@ -1,2 +1,14 @@
-@import 'fonts';
+@import "fonts";
 
+.glass {
+  background: rgba(255, 255, 255, 0.23);
+  box-shadow: 0 0px 3px 0 rgba(213, 214, 235, 0.241);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.max-view{
+   max-width: 1600px;
+   
+}
