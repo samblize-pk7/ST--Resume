@@ -13,47 +13,31 @@ module.exports = {
     ],
   },
   theme: {
-    markdownBase: {
-      wrapperClass: "content",
-      h2: {
-        fontSize: defaultTheme.fontSize["3xl"],
-        fontWeight: defaultTheme.fontWeight.bold,
-        marginTop: 0,
-        marginBottom: defaultTheme.spacing[2],
-      },
-
-      h3: {
-        fontSize: defaultTheme.fontSize["2xl"],
-        fontWeight: defaultTheme.fontWeight.bold,
-        marginTop: 0,
-        marginBottom: defaultTheme.spacing[2],
-      },
-    },
     screens: {
-      sm: "480px",
+      sm: "576px",
       md: "768px",
-      lg: "976px",
-      xl: "1240px",
+      lg: "992px",
+      xl: "1200px",
       "2xl": "1440px",
     },
-    colors: {
-      transparent: "transparent",
-      white: " white ",
-      amber: colors.amber,
-      blueGray: colors.blueGray,
-      gray: colors.gray,
-
-      rose: colors.rose,
-      red: colors.red,
-      lightBlue: colors.lightBlue,
-      blue: colors.blue,
-      violet: colors.violet,
-      indigo: colors.indigo,
-      green: colors.green,
-      lime: colors.lime,
+    fontFamily: {
+      behdad: ["Behdad"],
     },
+
     extend: {
+      colors: {
+        rose: colors.rose,
+      },
       backgroundOpacity: ["active"],
+      spacing: {
+        "90": "23rem",
+      },
     },
   },
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/line-clamp"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
 };
