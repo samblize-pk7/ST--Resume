@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+article h1{
+  font-size:3rem  ;
+  font-weight: bold ;
+
+}
+article h2{
+  font-size:2rem  ;
+  font-weight: bold ;
+ 
+}
+article h3{
+  font-size:1.2rem  ;
+  font-weight: bold ;
+ 
+}
+
+article * {
+   padding: 10px 0;
+}

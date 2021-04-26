@@ -1,0 +1,17 @@
+{
+  "ButtonsDefaultBtn": {
+    "description": "Auto imported from components/Buttons/DefaultBtn.vue"
+  },
+  "CarouselOwl": {
+    "description": "Auto imported from components/carousel/owl.vue"
+  },
+  "CarouselProductSH": {
+    "description": "Auto imported from components/carousel/ProductSH.vue"
+  },
+  "MenuSideNavbar": {
+    "description": "Auto imported from components/menu/SideNavbar.vue"
+  },
+  "MenuStickyNavbar": {
+    "description": "Auto imported from components/menu/stickyNavbar.vue"
+  }
+}
