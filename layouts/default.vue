@@ -3,7 +3,7 @@
     <BGGradientTron />
     <div class="flex justify-center">
       <div
-        class="glass mx-2 sm:mx-3 mt-10 mb-10 lg:mx-10 w-full max-view relative"
+        class="glass rounded-xl mx-2 sm:mx-3 mt-10 mb-10 lg:mx-10 w-full max-view relative"
       >
         <nav class="absolute top-3 right-5">
           <div class="nav-btn glass rounded-full" @click="ToggleMobileMenu()">
@@ -61,10 +61,16 @@ export default {
 
 
 <style  lang="scss" >
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap');
 body::-webkit-scrollbar {
   width: 5px;
 }
+*{
+ 
+  font-family: 'Raleway', sans-serif;
 
+}
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }

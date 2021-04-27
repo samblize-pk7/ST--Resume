@@ -9,7 +9,5 @@ export default {
 </script>
 
 <style>
-main {
-  height: 89vh
-}
+
 </style>
