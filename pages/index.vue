@@ -10,6 +10,6 @@ export default {
 
 <style>
 main {
-  height: 89vh;
+  height: 89vh
 }
 </style>
