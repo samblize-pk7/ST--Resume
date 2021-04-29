@@ -44,7 +44,7 @@ export default {
     component: "fa",
     icons: {
       solid: ["faCog", "faChevronLeft", "faAngleDown","faHome"],
-      brands: ["faGithub", "faVuejs", "faAngular", "faReact","faInstagram","faWhatsapp" , "faTwitter"],
+      brands: ["faGithub", "faVuejs", "faAngular", "faReact","faInstagram","faWhatsapp" , "faTwitter" ,"faLinkedinIn"],
       regular: false,
     },
   },

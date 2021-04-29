@@ -63,13 +63,13 @@ export default {
 <style  lang="scss" >
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap');
+  *{
+   
+    font-family: 'Raleway', sans-serif;
+  
+  }
 body::-webkit-scrollbar {
   width: 5px;
-}
-*{
- 
-  font-family: 'Raleway', sans-serif;
-
 }
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);

@@ -10,8 +10,8 @@
 }
 
 .glass-btn {
-  background: rgba(255, 255, 255, 0.03);
-  // box-shadow: 0 0px 8px 0px rgba(184, 13, 132, 0.104);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0px 8px 0px rgba(184, 13, 132, 0.104);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
 overflow: hidden;
@@ -28,7 +28,7 @@ overflow: hidden;
     height: 100%;
     top: 0;
     left: 0;
-    transition: all .3s ease-out;
+    transition: all .2s ease-out;
     transform: translateX(-100%);
   }
   &:hover{
