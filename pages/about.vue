@@ -16,12 +16,18 @@
         </div>
       </div>
         <div class="flex flex-col px-10 mt-14">
-          <p style="max-width: 800px">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
-            tempore, ab ad beatae atque saepe perferendis vel aperiam voluptatem
-            ullam dicta, fuga iste exercitationem doloremque illo nobis odio
-            obcaecati excepturi.
+          <div class="bg-red-400 rounded-md p-1 bg-opacity-20">
+
+          <p style="max-width: 800px" class=" font-bold text-gray-900">
+            Hello! I'm Front-end web/Android developer with some creativity and passion about solving problems and creating new stuff on the internet.I start my programming journey from <span class="text-rose-600">2017</span> and since today I had experience to work at a <span class="text-blue-600">start-up</span> and a <span class="text-blue-600">freelancing team</span> projects.
           </p>
+          <p style="max-width: 800px "  class="pt-2 font-bold text-gray-900">
+            Recently I'm intrested in vue/nuxt framwork and also Flutter for mobile app development.
+          </p>
+          <p style="max-width: 800px" class="pt-2 font-bold text-gray-900">
+            Here are a few technologies I've been working with recently:
+          </p>
+          </div>
           <h3 class="font-bold text-2xl my-4">My Skills</h3>
           <div class="flex flex-wrap ">
             <div class="glass rounded-full py-1 px-4 mr-3 my-2">Vue/Nuxt</div>
