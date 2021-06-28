@@ -73,7 +73,6 @@ export default {
   },
   async asyncData({ $content, params }) {
     const project = await $content("project", params.slug)
-      .only(["title", "image", "slug"])
       .sortBy("ID")
       .fetch();
 
