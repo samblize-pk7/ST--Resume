@@ -1,9 +1,25 @@
 <template>
   <main
-    class="flex items-center xl:justify-between justify-center px-3 xl:flex-row flex-col-reverse"
+    class="
+      flex
+      items-center
+      xl:justify-between
+      justify-center
+      px-3
+      xl:flex-row
+      flex-col-reverse
+    "
   >
     <section
-      class="flex flex-col xl:mx-10 mx-2 xl:items-start items-center mt-7 xl:mt-0"
+      class="
+        flex flex-col
+        xl:mx-10
+        mx-2
+        xl:items-start
+        items-center
+        mt-7
+        xl:mt-0
+      "
     >
       <p class="py-1 font-light">Hello, I'm</p>
       <h1 class="text-3xl py-1 font-bold">Sajjad Alizadeh</h1>
@@ -13,21 +29,54 @@
         <span class="text-blue-600 font-bold">D</span>eveloper
       </h2>
       <div class="flex flex-wrap justify-center">
-        <div
-          class="mt-4 px-4 py-1 rounded-3xl glass-btn text-rose-600 hover:text-white duration-500 font-semibold"
-        >
-          More About Me
-        </div>
+        <nuxt-link to="/About">
+          <div
+            class="
+              mt-4
+              px-4
+              py-1
+              rounded-3xl
+              glass-btn
+              text-rose-600
+              hover:text-white
+              duration-500
+              font-semibold
+            "
+          >
+            More About Me
+          </div>
+        </nuxt-link>
         <div class="w-5"></div>
-        <div
-          class="mt-4 px-4 py-1 rounded-3xl glass-btn text-rose-600 hover:text-white duration-500 font-semibold"
-        >
-          Portfolio
-        </div>
+        <nuxt-link to="/Portfolio">
+          <div
+            class="
+              mt-4
+              px-4
+              py-1
+              rounded-3xl
+              glass-btn
+              text-rose-600
+              hover:text-white
+              duration-500
+              font-semibold
+            "
+          >
+            Portfolio
+          </div>
+        </nuxt-link>
       </div>
     </section>
     <section
-      class="avatar-parent glass relative rounded-full p-2 xl:mr-28 mx-8 xl:mx-0"
+      class="
+        avatar-parent
+        glass
+        relative
+        rounded-full
+        p-2
+        xl:mr-28
+        mx-8
+        xl:mx-0
+      "
     >
       <div class="absolute glass rounded-xl p-1 dialog">
         <p>Let's turn Your idea into reality.</p>
@@ -50,13 +99,13 @@ export default {};
   transition: 0.3s ease-in-out;
   font-weight: 600;
   opacity: 0;
- filter: drop-shadow(2px 5px 15px #5DACF7);
+  filter: drop-shadow(2px 5px 15px #5dacf7);
 
   &::after {
     content: "";
     position: absolute;
-    bottom: 5px;
-    background: rgba(37, 99, 235, 0.6);
+    bottom: 1px;
+    background: rgba(37, 100, 235, 0.5);
     // transform: rotate(45deg);
     border: inherit;
     z-index: -1;

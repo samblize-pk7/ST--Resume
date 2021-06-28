@@ -3,7 +3,7 @@
     <BGGradientTron />
     <div class="flex justify-center">
       <div
-        class="glass rounded-xl mx-2 sm:mx-3 mt-10 mb-10 lg:mx-10 w-full max-view relative"
+        class="glass rounded-xl mx-2 sm:mx-3 mt-10 mb-10 lg:mx-10 w-full max-view relative" 
       >
         <nav class="absolute top-3 right-5">
           <div class="nav-btn glass rounded-full" @click="ToggleMobileMenu()">

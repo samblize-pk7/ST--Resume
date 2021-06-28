@@ -1,0 +1,6 @@
+{
+   "prettier.htmlWhitespaceSensitivity": "strict",
+   "prettier.quoteProps": "consistent",
+   "prettier.vueIndentScriptAndStyle": true,
+   "html.format.contentUnformatted": ""
+}
